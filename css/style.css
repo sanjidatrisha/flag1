@@ -1,0 +1,145 @@
+*{
+
+padding: 0px;
+margin: 0px;
+
+
+}
+body{
+font-family: serif;
+font-size: 14px;
+line-height: 24px;
+height: 1400px;
+
+
+}
+h1,h2,h3,h4,h5,h6{
+
+	font-family: sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.green{
+width: 600px;
+height: 400px;
+background: green;
+position:relative;
+
+
+}
+.red{
+	width: 120px;
+	height: 120px;
+	background: red;
+	border-radius: 100%;
+	position:absolute;
+	top:120px;
+	left:220px;
+	/*z-index: 1;*/
+
+}
+/*.yellow{
+	width: 200px;
+	height: 150px;
+	background: yellow;
+	border-radius: 100%;
+	position:absolute;
+	top:150px;
+	left:250px;
+	z-index: 0;
+
+}*/
+.fb-share{
+	width:150px;
+	position:fixed;
+	right:-95px;
+	top:50%;
+	transition: 1s ease-in;
+
+}
+.fb-share:hover{
+	right:2px;
+	cursor:pointer;
+
+}
+.youtube-share{
+	width:150px;
+	position:fixed;
+	right:-95px;
+	top:60%;
+	transition: 1s ease-in;
+
+}
+.youtube-share:hover{
+	right:2px;
+	cursor:pointer;
+
+}
+.twitter-share{
+	width:150px;
+	position:fixed;
+	right:-95px;
+	top:40%;
+	transition: 1s ease-in;
+
+}
+.twitter-share:hover{
+	right:2px;
+	cursor:pointer;
+
+}
+.whatsapp-share{
+	width:150px;
+	position:fixed;
+	right:-95px;
+	top:30%;
+	transition: 1s ease-in;
+
+}
+.whatsapp-share:hover{
+	right:2px;
+	cursor:pointer;
+
+}
+.social-media{
+width:100%;
+padding: 100px 0px;
+}
+
+.social-media-icons{
+width: 100%;
+text-align: center;
+
+}
+
+.social-media-icons li{
+	list-style: none;
+	display: inline-block;
+}
+
+.social-media-icons li a{
+
+	display: block;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 100%;
+	text-align: center;
+	background: #08c;
+	color: #fff;
+	font-size: 35px;
+	margin: 0px 15px;
+	transition: 1s ease in;
+
+}
+
+.social-media-icons li a:hover{
+background: #000;
+color: 08c;
+
+
+}
